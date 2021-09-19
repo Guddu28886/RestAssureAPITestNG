@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="restAssured.Tests.TC07_PostRequestWithBodyJsonFileMethodChaining">
+        <methods>
+          <include name="getValueFromResponseBody"/>
+          <include name="getHeaders"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyStatusLine"/>
+          <include name="verifyStatusCode"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- restAssured.Tests.TC07_PostRequestWithBodyJsonFileMethodChaining -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
