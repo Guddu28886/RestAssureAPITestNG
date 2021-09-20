@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="API Rest Assures Automation Suite">
 	
-	<test name="API Rest Assured Test Cases">
+	<test name="API Rest Assured Test Cases" parallel ="false">
 		<classes>
 			<class name="restAssured.Tests.TC01_GetRequestDetailsPrintTest" />
-			<class name="restAssured.Tests.TC02_PostRequestWithBodyHeader" />
-			<class name="restAssured.Tests.TC03_UpdateRequestWithBodyHeader" />
+			<class name="restAssured.Tests.TC02_PostRequestWithBodyHeaderTest" />
+			<class name="restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest" />
 		</classes>
 	</test>
 </suite>

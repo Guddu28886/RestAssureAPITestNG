@@ -13,7 +13,7 @@ import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import restAssured.Base.APIBase;
 
-public class TC02_PostRequestWithBodyHeader extends APIBase{
+public class TC02_PostRequestWithBodyHeaderTest extends APIBase{
 
 	@SuppressWarnings("unchecked")
 	@Test(priority = 1)

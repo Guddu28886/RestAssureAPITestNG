@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Rest Assures Automation Suite" duration-ms="7719" started-at="2021-09-20T14:13:10Z" finished-at="2021-09-20T14:13:18Z">
+    <groups>
+    </groups>
+    <test name="API Rest Assured Test Cases" duration-ms="7719" started-at="2021-09-20T14:13:10Z" finished-at="2021-09-20T14:13:18Z">
+      <class name="restAssured.Tests.TC02_PostRequestWithBodyHeaderTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:restAssured.Tests.TC02_PostRequestWithBodyHeaderTest@6737fd8f]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-09-20T14:13:12Z" finished-at="2021-09-20T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:restAssured.Tests.TC02_PostRequestWithBodyHeaderTest@6737fd8f]" name="startReport" is-config="true" duration-ms="1" started-at="2021-09-20T14:13:12Z" finished-at="2021-09-20T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="postRequest()[pri:1, instance:restAssured.Tests.TC02_PostRequestWithBodyHeaderTest@6737fd8f]" name="postRequest" duration-ms="488" started-at="2021-09-20T14:13:12Z" finished-at="2021-09-20T14:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:restAssured.Tests.TC02_PostRequestWithBodyHeaderTest@6737fd8f]" name="endReport" is-config="true" duration-ms="46" started-at="2021-09-20T14:13:13Z" finished-at="2021-09-20T14:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- restAssured.Tests.TC02_PostRequestWithBodyHeaderTest -->
+      <class name="restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest@72b6cbcc]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-09-20T14:13:13Z" finished-at="2021-09-20T14:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest@72b6cbcc]" name="startReport" is-config="true" duration-ms="0" started-at="2021-09-20T14:13:13Z" finished-at="2021-09-20T14:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="updateRequest()[pri:1, instance:restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest@72b6cbcc]" name="updateRequest" duration-ms="5347" started-at="2021-09-20T14:13:13Z" finished-at="2021-09-20T14:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRequest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest@72b6cbcc]" name="endReport" is-config="true" duration-ms="37" started-at="2021-09-20T14:13:18Z" finished-at="2021-09-20T14:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- restAssured.Tests.TC03_UpdateRequestWithBodyHeaderTest -->
+      <class name="restAssured.Tests.TC01_GetRequestDetailsPrintTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:restAssured.Tests.TC01_GetRequestDetailsPrintTest@1efed156]" name="beforeClass" is-config="true" duration-ms="465" started-at="2021-09-20T14:13:10Z" finished-at="2021-09-20T14:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:restAssured.Tests.TC01_GetRequestDetailsPrintTest@1efed156]" name="startReport" is-config="true" duration-ms="3" started-at="2021-09-20T14:13:11Z" finished-at="2021-09-20T14:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="getResponseBody()[pri:1, instance:restAssured.Tests.TC01_GetRequestDetailsPrintTest@1efed156]" name="getResponseBody" duration-ms="1082" started-at="2021-09-20T14:13:11Z" finished-at="2021-09-20T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:restAssured.Tests.TC01_GetRequestDetailsPrintTest@1efed156]" name="endReport" is-config="true" duration-ms="226" started-at="2021-09-20T14:13:12Z" finished-at="2021-09-20T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- restAssured.Tests.TC01_GetRequestDetailsPrintTest -->
+    </test> <!-- API Rest Assured Test Cases -->
+  </suite> <!-- API Rest Assures Automation Suite -->
+</testng-results>

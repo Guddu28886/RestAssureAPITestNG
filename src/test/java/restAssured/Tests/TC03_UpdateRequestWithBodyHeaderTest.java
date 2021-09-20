@@ -9,7 +9,7 @@ import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import restAssured.Base.APIBase;
 
-public class TC03_UpdateRequestWithBodyHeader extends APIBase{
+public class TC03_UpdateRequestWithBodyHeaderTest extends APIBase{
 	@SuppressWarnings("unchecked")
 	@Test(priority=1)
 	public void updateRequest() {

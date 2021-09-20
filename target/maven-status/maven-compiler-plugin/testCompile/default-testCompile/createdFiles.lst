@@ -1,0 +1,9 @@
+restAssured\Tests\TC02_PostRequestWithBodyHeaderTest.class
+restAssured\Tests\TC07_PostRequestWithBodyJsonFileMethodChaining.class
+restAssured\Util\ExtentManager.class
+restAssured\Tests\TC05_DeleteRequestFromGetRequestValueTest.class
+restAssured\Tests\TC01_GetRequestDetailsPrintTest.class
+restAssured\Tests\TC03_UpdateRequestWithBodyHeaderTest.class
+restAssured\Base\APIBase.class
+restAssured\Tests\TC06_PostRequestWithBodyJsonFile.class
+restAssured\Tests\TC04_DeleteRequest.class
